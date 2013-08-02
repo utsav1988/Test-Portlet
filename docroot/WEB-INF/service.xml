@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_0_0.dtd">
+<service-builder package-path="com.sample.portlet.test">
+<author>priyanka.dhingra</author>
+<namespace>EMPLOYEE</namespace>
+
+<entity name="Employee" local-service="true" remote-service="false"> 
+
+<!-- PK fields --> 
+
+<column name="empId" type="long" primary="true" /> 
+
+
+<column name="fname" type="String" /> 
+<column name="phone" type="long" />
+
+
+</entity>
+</service-builder>
